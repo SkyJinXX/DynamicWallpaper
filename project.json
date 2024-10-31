@@ -1,6 +1,6 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "",
+	"description" : "This desktop picture changes throughout the day, based on your location.\r\n---\r\nTransplanted macOS 11 BigSur Day/Night Dynamic Wallpaper\r\n5K Resolution (5120 x 2880)\r\nBoth dynamic mode & static mode are supported\r\nDynamic mode:\r\n- Image changes according to sunrise and sunset time with animation\r\n- Sunrise and sunset time can be automatically fetched from internet or set manually\r\n- Animation duration is adjustable\r\nStatic mode:\r\n- All 8 images available\r\n---\r\nNotes:\r\n- Internet-based location detection might not be functional under some network conditions and in some regions\r\n- To make your own dynamic wallpaper, visit github page for codes: https://github.com/Yaindrop/DynamicWallpaper\r\n- Original from Yaindrop",
 	"file" : "index.html",
 	"general" : 
 	{
@@ -8,52 +8,66 @@
 		{
 			"custombool" : 
 			{
+				"index" : 0,
+				"order" : 100,
 				"text" : "Static Image Mode",
 				"type" : "bool",
 				"value" : false
 			},
 			"custombool2" : 
 			{
+				"index" : 1,
+				"order" : 101,
 				"text" : "Use Internet-based Location",
 				"type" : "bool",
 				"value" : true
 			},
 			"customint" : 
 			{
-				"max" : 16,
+				"index" : 2,
+				"max" : 8,
 				"min" : 1,
+				"order" : 102,
 				"text" : "Static Image Number",
 				"type" : "slider",
 				"value" : 1
 			},
 			"customint2" : 
 			{
+				"index" : 3,
 				"max" : 8,
-				"min" : 4,
+				"min" : 1,
+				"order" : 103,
 				"text" : "Sunrise At (A.M.)",
 				"type" : "slider",
 				"value" : 7
 			},
 			"customint3" : 
 			{
+				"index" : 4,
 				"max" : 8,
 				"min" : 4,
+				"order" : 104,
 				"text" : "Sunset At (P.M.)",
 				"type" : "slider",
 				"value" : 6
 			},
 			"customint4" : 
 			{
+				"index" : 5,
 				"max" : 10,
 				"min" : 0,
+				"order" : 105,
 				"text" : "Animation Duration (s)",
 				"type" : "slider",
 				"value" : 2
 			},
 			"customint5" : 
 			{
+				"index" : 6,
 				"max" : 60,
 				"min" : 1,
+				"order" : 106,
 				"text" : "Update Interval (s)",
 				"type" : "slider",
 				"value" : 10
@@ -63,12 +77,16 @@
 				"order" : 0,
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
-				"value" : "0 0.43137254901960786 1"
+				"value" : "1 1 1"
 			}
 		}
 	},
-	"monetization" : false,
-	"preview" : "",
-	"tags" : [],
-	"title" : "Untitled"
+	"preview" : "preview.jpg",
+	"tags" : [ "Nature" ],
+	"title" : "macOS BigSur Day/Night (1.3)",
+	"type" : "web",
+	"version" : 3,
+	"visibility" : "public",
+	"workshopid" : "2510073312",
+	"workshopurl" : "steam://url/CommunityFilePage/2510073312"
 }

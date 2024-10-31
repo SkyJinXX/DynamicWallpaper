@@ -1,9 +1,9 @@
 window.dynamicWPControl = {
 
 	// Wallpaper metadatas
-	imgCount: null,
-	sunriseImgNo: null,
-	sunsetImgNo: null,
+	imgCount: 8,
+	sunriseImgNo: 2,
+	sunsetImgNo: 7,
 
 	// Properties
 	prop: {
@@ -42,7 +42,7 @@ window.dynamicWPControl = {
 	timeCycle: null, 
 	updateTimer: null,
 	preload: [],
-	imgNo: 1,
+	imgNo: 8,
 
 	// Apply new image with number n
 	applyImg: function(n) {
